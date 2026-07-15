@@ -1,0 +1,9 @@
+[project]
+name = "goldpulse"
+version = "0.1.0"
+description = "GoldPulse — an XAUUSD scalping bot for MT5, optionally powered by Claude Code for agentic trade decisions"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "MetaTrader5>=5.0.5735",
+]

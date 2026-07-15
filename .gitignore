@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Claude Code — machine-specific permissions, not shared project config
+.claude/settings.local.json
+
+# ── Runtime-generated data ──────────────────────────────────────────────
+# Created by main.py / ui.py / agent.py at run time. These contain your
+# MT5 account number, balance, broker server name, live trade history, and
+# agent decision reasoning tied to your own account — never commit them.
+logs/
+trade_history.json
+ui_settings.json
+agent_settings.json
+
+# Bot IPC stop-file: written transiently by ui.py, deleted by main.py.
+# Matches the .close_{magic} pattern for any magic number.
+.close_*
